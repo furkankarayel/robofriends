@@ -13,6 +13,19 @@
   }
 }
 
+@font-face {
+  font-family: 'Sega Logo Font';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sega Logo Font'), url('SEGA.TTF') format('woff');
+}
+
+h1 {
+  font-family: 'Sega Logo Font';
+  font-weight: 200;
+  color: #0ccac4;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +45,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
